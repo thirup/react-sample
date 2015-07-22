@@ -1,0 +1,180 @@
+.test1 {
+	display: block;
+	background: grey;
+	position: relative;
+	height: 500px;
+	width: 500px;
+  -webkit-transition: all 2s; /* TODO: make this a move animation */
+  transition: all 2s; /* TODO: make this a move animation */
+}
+
+.example-enter,
+.example-leave {
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+.example-enter,
+.example-leave.example-leave-active {
+  opacity: 0.01;
+}
+
+.example-leave.example-leave-active {
+  width: 0;
+}
+
+.example-enter {
+  width: 10;
+}
+
+.example-enter.example-enter-active,
+.example-leave {
+  width: 500px;
+  opacity: 1;
+}
+
+.rightsection {
+	display: block;
+	background: Red;
+	height: 100%;
+	width: 200px;
+	float: right;
+  -webkit-transition: all .25s; /* TODO: make this a move animation */
+  transition: all .25s; /* TODO: make this a move animation */
+}
+
+.rightsection-enter,
+.rightsection-leave {
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+.rightsection-enter,
+.rightsection-leave.rightsection-leave-active {
+  opacity: 0.01;
+}
+
+.rightsection-leave.rightsection-leave-active {
+  width: 0;
+}
+
+.rightsection-enter {
+  width: 0;
+}
+
+.rightsection-enter.rightsection-enter-active,
+.rightsection-leave {
+  width: 200px;
+  opacity: 1;
+}
+
+/* rightsection */
+
+/* leftmenusection-big, leftmenusection-small, leftmenusection-none */
+
+.leftmenusection-big {
+	display: block;
+	background: Blue;
+	height: 100%;
+	width: 200px;
+	float: left;
+  -webkit-transition: all 2s; /* TODO: make this a move animation */
+  transition: all 2s; /* TODO: make this a move animation */
+}
+
+.leftmenusection-big-enter,
+.leftmenusection-big-leave {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.leftmenusection-big-enter,
+.leftmenusection-big-leave.leftmenusection-big-leave-active {
+  opacity: 0.01;
+}
+
+.leftmenusection-big-leave.leftmenusection-big-leave-active {
+  width: 40;
+}
+
+.leftmenusection-big-enter {
+  width: 0;
+}
+
+.leftmenusection-big-enter.leftmenusection-big-enter-active,
+.leftmenusection-big-leave {
+  width: 200px;
+  opacity: 1;
+}
+
+
+.leftmenusection-small {
+	display: block;
+	background: Green;
+	height: 100%;
+	width: 40px;
+	float: float;
+  -webkit-transition: all .25s; /* TODO: make this a move animation */
+  transition: all .25s; /* TODO: make this a move animation */
+}
+
+.leftmenusection-small-leave {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.leftmenusection-small-enter,
+.leftmenusection-small-leave.leftmenusection-small-leave-active {
+  opacity: 0.01;
+}
+
+.leftmenusection-small-leave.leftmenusection-small-leave-active {
+  width: 0;
+}
+
+.leftmenusection-small-enter {
+  width: 0;
+}
+
+.leftmenusection-small-enter.leftmenusection-small-enter-active,
+.leftmenusection-small-leave {
+  width: 40px;
+  opacity: 1;
+}
+
+
+
+.leftmenusection-none {
+	display: none;
+	background: white;
+	height: 100%;
+	width: 0px;
+	float: left;
+  -webkit-transition: all .25s; /* TODO: make this a move animation */
+  transition: all .25s; /* TODO: make this a move animation */
+}
+
+.leftmenusection-none-leave {
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+.leftmenusection-none-enter,
+.leftmenusection-none-leave.leftmenusection-none-leave-active {
+  opacity: 0.01;
+}
+
+.leftmenusection-none-leave.leftmenusection-none-leave-active {
+  width: 0;
+}
+
+.leftmenusection-none-enter {
+  width: 0;
+}
+
+.leftmenusection-none-enter.leftmenusection-none-enter-active,
+.leftmenusection-none-leave {
+  width: 0px;
+  opacity: 1;
+}
+
