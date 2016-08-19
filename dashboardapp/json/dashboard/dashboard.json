@@ -1,0 +1,8 @@
+{"ids":["dashboard1", "dashboard2", "dashboard3", "dashboard4", "dashboard5", "dashboard6"],
+"dashboard1": {"description": "Dashboard 1", "roles_allowed": ["role1", "role4"]},
+"dashboard2": {"description": "Dashboard 2", "roles_allowed": ["role3", "role4"]},
+"dashboard3": {"description": "Dashboard 3", "roles_allowed": ["role2", "role5"]},
+"dashboard4": {"description": "Dashboard 4", "roles_allowed": ["role1"]},
+"dashboard5": {"description": "Dashboard 5", "roles_allowed": ["role2"]},
+"dashboard6": {"description": "Dashboard 6", "roles_allowed": ["role5"]}
+}
