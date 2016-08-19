@@ -4,11 +4,12 @@ server (to host the application)<br/>
 Chrome Browser<br/>
 <br/>
 Commands:<br/>
-1. To installs the required the javascript packages<br/>
+To installs the required the javascript packages<br/>
 - npm install<br/>
 <br/>
 <br/>
-2. To builds the package and bundles<br/>
+
+To builds the package and bundles<br/>
 - npm build<br/>
 <br/>
 OR<br/>
@@ -16,9 +17,9 @@ OR<br/>
 To watch the changes<br/>
 - npm run start <br/>
 <br/>
-3. Push the files to the server excluding node_modules<br/>
+Push the files to the server (exclude node_modules folder) <br/>
 <br/>
-4. Access the page<br/>
+Access the page<br/>
 <br/>
 <br/>
 Notes:<br/>
